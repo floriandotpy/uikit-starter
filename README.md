@@ -10,21 +10,21 @@ A basic starter setup for integrating UIkit in your front-end workflow. This is 
 
 2. Install all JavaScript dependencies required in `package.json` by running:
 
-```sh
-npm install
-```
+    ```sh
+    npm install
+    ```
 
 3. Use Bower to automatically fetch the required UIkit dependency:
 
-```sh
-bower install
-```
+    ```sh
+    bower install
+    ```
 
 4. Run Gulp once to compile the LESS to CSS:  
 
-```sh
-gulp
-```
+    ```sh
+    gulp
+    ```
 
 Done. You can now view `index.html` in your browser and start creating your own project from this foundation.
 
