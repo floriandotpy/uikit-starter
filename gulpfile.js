@@ -1,8 +1,6 @@
 var gulp        = require('gulp'),
     less        = require('gulp-less'),
-    minifycss   = require('gulp-minify-css'),
-    watch       = require('gulp-watch'),
-    runSequence = require('run-sequence');
+    watch       = require('gulp-watch');
 
 
 gulp.task('less', function () {
@@ -11,10 +9,7 @@ gulp.task('less', function () {
     gulp.src('assets/site.less')
 
         // compile less
-        .pipe(less())
-
-        // minify css
-        .pipe(minifycss())
+        .pipe(less({ compress: true }))
 
         // output to folder
         .pipe(gulp.dest('./assets'));
@@ -26,8 +21,6 @@ gulp.task('default', ['less']);
 gulp.task('watch', function() {
 
     // when any less file is changed: recompile
-    gulp.watch('assets/**/*.less', function(files) {
-        runSequence('less');
-    });
+    gulp.watch('assets/**/*.less', ['less']);
 
 });
