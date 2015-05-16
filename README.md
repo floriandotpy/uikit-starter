@@ -6,21 +6,21 @@ A basic starter setup for integrating UIkit in your front-end workflow. This is 
 
 *Notice:* You need to have [npm](https://www.npmjs.com/), [Bower](http://bower.io/) and [Gulp](http://gulpjs.com/) running on your local system to use the code provided.
 
-Download or clone the repository and navigate to the directory on your terminal.
+1. Download or clone the repository and navigate to the directory on your terminal.
 
-Install all JavaScript dependencies required in `package.json` by running:
+2. Install all JavaScript dependencies required in `package.json` by running:
 
 ```sh
 npm install
 ```
 
-User Bower to automatically fetch the required UIkit dependency:
+3. Use Bower to automatically fetch the required UIkit dependency:
 
 ```sh
 bower install
 ```
 
-Run Gulp once to compile the LESS to CSS:  
+4. Run Gulp once to compile the LESS to CSS:  
 
 ```sh
 gulp
