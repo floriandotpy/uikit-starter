@@ -1,0 +1,19 @@
+{
+  "name": "uikit-starter",
+  "version": "0.0.0",
+  "homepage": "https://github.com/florianletsch/uikit-starter",
+  "authors": [
+    "Florian Letsch <flo@florianletsch.de>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "uikit": "~2.20.3"
+  }
+}
