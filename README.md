@@ -14,13 +14,13 @@ A basic starter setup for integrating UIkit in your front-end workflow. This is 
     npm install
     ```
 
-3. Use Bower to automatically fetch the required UIkit dependency:
+3. Use Bower to automatically fetch front-end dependencies required in `bower.json` (i.e. UIkit):
 
     ```sh
     bower install
     ```
 
-4. Run Gulp once to compile the LESS to CSS:  
+4. Run Gulp once to compile the LESS to CSS (Gulp tasks defined in `gulpfile.js`):
 
     ```sh
     gulp
