@@ -1,7 +1,5 @@
 var gulp        = require('gulp'),
-    less        = require('gulp-less'),
-    watch       = require('gulp-watch');
-
+    less        = require('gulp-less');
 
 gulp.task('less', function () {
 
