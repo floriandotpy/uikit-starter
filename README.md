@@ -14,13 +14,7 @@ A basic starter setup for integrating UIkit in your front-end workflow. This is 
     npm install
     ```
 
-3. Use Bower to automatically fetch front-end dependencies required in `bower.json` (i.e. UIkit):
-
-    ```sh
-    bower install
-    ```
-
-4. Run Gulp once to compile the LESS to CSS (Gulp tasks defined in `gulpfile.js`):
+3. Run Gulp once to compile the LESS to CSS (Gulp tasks defined in `gulpfile.js`):
 
     ```sh
     gulp
@@ -42,17 +36,11 @@ In the future, you will want to extend what `gulpfile.js` provides. Use `npm` to
 npm install -S <some-module>
 ```
 
-The same goes for any additional front-end library you want to add, just use Bower instead.
-
-```sh
-bower install -S <some-library>
-```
-
 ## License
 
 The MIT License (MIT)
 
-Copyright (c) 2015 Florian Letsch
+Copyright (c) 2017 Florian Letsch
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

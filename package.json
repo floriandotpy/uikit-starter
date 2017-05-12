@@ -5,7 +5,8 @@
   "main": "gulpfile.js",
   "dependencies": {
     "gulp": "^3.8.11",
-    "gulp-less": "^3.0.3"
+    "gulp-less": "^3.0.3",
+    "uikit": "^3.0.0-beta"
   },
   "devDependencies": {},
   "scripts": {
